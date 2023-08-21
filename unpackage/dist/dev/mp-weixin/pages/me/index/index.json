@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "common-container": "/components/commonContainer/index",
+    "user-info": "/pages/me/index/components/userInfo/index",
+    "grid": "/pages/me/index/components/grid/index"
+  }
+}

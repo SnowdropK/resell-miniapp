@@ -1,0 +1,13 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "编辑资料",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-cell-group": "/node-modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell": "/node-modules/uview-ui/components/u-cell/u-cell",
+    "u-action-sheet": "/node-modules/uview-ui/components/u-action-sheet/u-action-sheet",
+    "u--textarea": "/node-modules/uview-ui/components/u--textarea/u--textarea",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal",
+    "common-container": "/components/commonContainer/index"
+  }
+}

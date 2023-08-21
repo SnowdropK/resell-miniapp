@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "common-container": "/components/commonContainer/index",
+    "resell-sku": "/pages/home/resell/components/resellSku/index",
+    "scroll-list": "/components/scrollList/index"
+  }
+}

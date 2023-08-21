@@ -1,0 +1,29 @@
+/* 设置全局样式 */
+/* 默认字体28rpx, 默认行高1.8,背景颜色 */
+page {
+  height: 100%;
+  font-size: 28rpx;
+  line-height: 1.8;
+  overflow-x: hidden;
+  background: #ffffff;
+}
+image {
+  width: 100%;
+}
+/* 主色调 */
+/* 主背景颜色*/
+.main-bg-color {
+  background: #4d03ff;
+}
+/* 主点击背景颜色*/
+.main-bg-hover-color {
+  background: #4d03ff;
+}
+/* 主字体颜色*/
+.main-text-color {
+  color: #4d03ff;
+}
+/* 主边框颜色 */
+.main-border-color {
+  border-color: #4d03ff;
+}

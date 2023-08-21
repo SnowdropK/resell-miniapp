@@ -1,0 +1,9 @@
+{
+  "componentGenerics": {
+    "scoped-slots-style": true
+  },
+  "component": true,
+  "usingComponents": {
+    "card-title": "/pages/home/search/components/cardTitle"
+  }
+}

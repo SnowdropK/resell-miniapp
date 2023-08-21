@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "我卖出的",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "common-container": "/components/commonContainer/index",
+    "scroll-list": "/components/scrollList/index",
+    "order-item": "/pages/me/myOrder/components/orderItem/index"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "帮助",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-cell-group": "/node-modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell": "/node-modules/uview-ui/components/u-cell/u-cell",
+    "common-container": "/components/commonContainer/index"
+  }
+}

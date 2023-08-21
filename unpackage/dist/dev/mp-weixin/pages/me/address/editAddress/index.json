@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u--textarea": "/node-modules/uview-ui/components/u--textarea/u--textarea",
+    "u-switch": "/node-modules/uview-ui/components/u-switch/u-switch",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "common-container": "/components/commonContainer/index",
+    "mpvue-city-picker": "/components/uni-ui/mpvue-citypicker/mpvueCityPicker"
+  }
+}

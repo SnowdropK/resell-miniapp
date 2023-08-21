@@ -1,0 +1,14 @@
+
+.level.data-v-678e9a52 {
+  color: #bfbfbf;
+}
+.avatarUrl.data-v-678e9a52 {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 90rpx;
+}
+.iconUrl.data-v-678e9a52,
+.mainUrl.data-v-678e9a52 {
+  border-radius: 10rpx;
+}
+

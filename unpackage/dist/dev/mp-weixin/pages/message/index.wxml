@@ -1,0 +1,1 @@
+<view class="messageContainer"><common-container vue-id="7b605105-1" title="消息" showBack="{{false}}" bind:__l="__l"></common-container></view>

@@ -1,0 +1,1 @@
+<view class="vajraBox"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view data-event-opts="{{[['tap',[['goToDetail',['$0'],[[['list','id',item.id]]]]]]]}}" class="item" bindtap="__e"><image class="vajraImg" mode="aspectFill" src="{{item.iconUrl}}"></image><text class="vajraName">{{item.name}}</text></view></block></view>

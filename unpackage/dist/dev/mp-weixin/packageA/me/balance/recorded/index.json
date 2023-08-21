@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "待入账明细",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "common-container": "/components/commonContainer/index",
+    "order-item": "/packageA/me/balance/recorded/components/orderItem/index"
+  }
+}

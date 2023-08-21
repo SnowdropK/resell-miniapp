@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "common-container": "/components/commonContainer/index",
+    "scroll-list": "/components/scrollList/index",
+    "sku-header": "/pages/home/skuDetail/components/skuHeader/index",
+    "profile": "/pages/home/skuDetail/components/profile/index",
+    "plat-resell": "/pages/home/skuDetail/components/platResell/index",
+    "whole-network": "/pages/home/skuDetail/components/wholeNetwork/index"
+  }
+}

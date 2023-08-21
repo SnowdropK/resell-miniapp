@@ -1,0 +1,18 @@
+<view class="publishContainer">
+  <common-container vue-id="101d18cc-1" title="发布" showBack="{{false}}" bind:__l="__l" vue-slots="{{['default']}}">
+    <view class="content">
+      <view class="publishBgBox">
+        <image src="/static/images/bgs/publishBg.png" mode="aspectFit"></image>
+        <view class="leaveUnused">{{platConfig.saleNum}}</view>
+      </view>
+      <view data-event-opts="{{[['tap',[['goToRsellPlats',['$event']]]]]}}" class="resellBox" bindtap="__e">
+        <image class="resellImg" src="/static/images/bgs/giftBg.png"></image>
+        <view class="tipBox">
+          <view>一键转卖</view>
+          <view class="tipTitle">赏袋转卖赚钱</view>
+        </view>
+        <u-icon vue-id="{{('101d18cc-2')+','+('101d18cc-1')}}" name="arrow-right" size="28" bind:__l="__l"></u-icon>
+      </view>
+    </view>
+  </common-container>
+</view>

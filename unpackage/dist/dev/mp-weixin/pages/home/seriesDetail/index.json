@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "common-container": "/components/commonContainer/index",
+    "search": "/components/search/index",
+    "custom-waterfalls-flow": "/components/custom-waterfalls-flow/index",
+    "sku-item": "/pages/home/seriesDetail/components/skuItem/index"
+  }
+}

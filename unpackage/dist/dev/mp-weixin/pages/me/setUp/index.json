@@ -1,0 +1,13 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "卖家设置",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-radio-group": "/node-modules/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/node-modules/uview-ui/components/u-radio/u-radio",
+    "u--input": "/node-modules/uview-ui/components/u--input/u--input",
+    "u--textarea": "/node-modules/uview-ui/components/u--textarea/u--textarea",
+    "common-container": "/components/commonContainer/index",
+    "mpvue-city-picker": "/components/uni-ui/mpvue-citypicker/mpvueCityPicker"
+  }
+}

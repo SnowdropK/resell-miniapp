@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "赏袋",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "common-container": "/components/commonContainer/index",
+    "o-collapse": "/components/uni-ui/u-collapse/u-collapse",
+    "o-collapse-item": "/components/uni-ui/u-collapse-item/u-collapse-item"
+  }
+}

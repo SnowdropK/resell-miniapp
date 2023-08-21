@@ -1,0 +1,14 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "common-container": "/components/commonContainer/index",
+    "search": "/components/search/index",
+    "vajra-box": "/pages/home/index/components/vajraBox/index",
+    "sales-zone": "/pages/home/index/components/salesZone/index",
+    "banner": "/components/banner/index",
+    "scroll-list": "/components/scrollList/index",
+    "custom-waterfalls-flow": "/components/custom-waterfalls-flow/index",
+    "series-item": "/pages/home/index/components/seriesItem/index"
+  }
+}

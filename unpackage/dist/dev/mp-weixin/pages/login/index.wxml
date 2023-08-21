@@ -1,0 +1,1 @@
+<view class="loginContainer"><image class="avatorImg shadow-lg" mode="aspectFill" src="/static/images/icons/logo.png"></image><u-button class="loginBtn" vue-id="6b4b36ba-1" color="linear-gradient(to right, #6b31f7, #d533ba)" text="登 录" data-event-opts="{{[['^click',[['handleLogin']]]]}}" bind:click="__e" bind:__l="__l"></u-button></view>

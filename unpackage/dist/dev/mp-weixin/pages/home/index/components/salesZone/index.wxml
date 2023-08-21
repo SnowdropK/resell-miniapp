@@ -1,0 +1,1 @@
+<view class="salesZoneBox"><view data-event-opts="{{[['tap',[['goToResell',['$event']]]]]}}" class="zone left" bindtap="__e"><text>转卖专区</text><u--image vue-id="4b599d00-1" src="/static/images/icons/sale.png" width="80rpx" height="80rpx" bind:__l="__l"></u--image></view></view>

@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "个人主页",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "common-container": "/components/commonContainer/index",
+    "scroll-list": "/components/scrollList/index",
+    "user-info": "/packageA/me/personal/components/userInfo/index",
+    "list-item": "/packageA/me/personal/components/listItem/index"
+  }
+}

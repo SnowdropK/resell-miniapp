@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "银行卡管理",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-swipe-action": "/node-modules/uview-ui/components/u-swipe-action/u-swipe-action",
+    "u-swipe-action-item": "/node-modules/uview-ui/components/u-swipe-action-item/u-swipe-action-item",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "common-container": "/components/commonContainer/index"
+  }
+}

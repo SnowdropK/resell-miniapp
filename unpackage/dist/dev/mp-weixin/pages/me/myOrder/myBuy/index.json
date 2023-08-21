@@ -1,0 +1,13 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "我买到的",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "common-container": "/components/commonContainer/index",
+    "search": "/components/search/index",
+    "ren-dropdown-filter": "/components/ren-dropdown-filter/index",
+    "buy-order-item": "/pages/me/myOrder/components/buyOrderItem/index"
+  }
+}

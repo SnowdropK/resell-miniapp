@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "余额中心",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-list": "/node-modules/uview-ui/components/u-list/u-list",
+    "u-list-item": "/node-modules/uview-ui/components/u-list-item/u-list-item",
+    "u-cell": "/node-modules/uview-ui/components/u-cell/u-cell",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "common-container": "/components/commonContainer/index"
+  }
+}

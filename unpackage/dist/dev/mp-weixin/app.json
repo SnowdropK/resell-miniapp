@@ -1,0 +1,89 @@
+{
+  "pages": [
+    "pages/home/index/index",
+    "pages/login/index",
+    "pages/home/resell/index",
+    "pages/home/auction/index",
+    "pages/home/seriesDetail/index",
+    "pages/home/skuDetail/index",
+    "pages/home/order/index",
+    "pages/home/cashier/index",
+    "pages/home/search/index",
+    "pages/home/class/index",
+    "pages/publish/index/index",
+    "pages/publish/resellPlats/index",
+    "pages/publish/resellGoods/index",
+    "pages/publish/confirmResell/index",
+    "pages/publish/resellSuccess/index",
+    "pages/message/index",
+    "pages/me/index/index",
+    "pages/me/myOrder/mySell/index",
+    "pages/me/myOrder/myBuy/index",
+    "pages/me/myOrder/orderDetail/index",
+    "pages/me/myOrder/buyOrderDetail/index",
+    "pages/me/pay/index/index",
+    "pages/me/pay/edit/index",
+    "pages/me/address/index/index",
+    "pages/me/address/editAddress/index",
+    "pages/me/collect/index",
+    "pages/me/setUp/index",
+    "pages/me/helps/index/index",
+    "pages/me/pocket/index/index",
+    "pages/me/pocket/sale/index"
+  ],
+  "subPackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "me/personal/index",
+        "me/editInfo/index",
+        "me/webView/index",
+        "me/balance/index",
+        "me/balance/withdrawal/index",
+        "me/balance/recorded/index",
+        "me/balance/balanceDetails/index",
+        "me/balance/bankCard/index",
+        "me/balance/addBankCard/index",
+        "me/balance/openAccount/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "奇物",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#0050FF",
+    "list": [
+      {
+        "iconPath": "/static/images/tabbarIcons/home.png",
+        "selectedIconPath": "/static/images/tabbarIcons/home_a.png",
+        "text": "首页",
+        "pagePath": "pages/home/index/index"
+      },
+      {
+        "iconPath": "/static/images/tabbarIcons/deploy.png",
+        "selectedIconPath": "/static/images/tabbarIcons/deploy_a.png",
+        "text": "发布",
+        "pagePath": "pages/publish/index/index"
+      },
+      {
+        "iconPath": "/static/images/tabbarIcons/my.png",
+        "selectedIconPath": "/static/images/tabbarIcons/my_a.png",
+        "text": "我的",
+        "pagePath": "pages/me/index/index"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIDList": [
+    "wxb1d958ccdbbf2833"
+  ],
+  "permission": {},
+  "requiredPrivateInfos": [
+    "chooseAddress"
+  ],
+  "usingComponents": {}
+}

@@ -1,0 +1,364 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    // 首页
+    {
+      "path": "pages/home/index/index",
+      "style": {
+        // "navigationBarTitleText": "首页"
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/resell/index",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/home/auction/index",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/home/seriesDetail/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/skuDetail/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/order/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/cashier/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/search/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "搜索",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/home/class/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "分类",
+        "enablePullDownRefresh": false
+      }
+    },
+    // 发布
+    {
+      "path": "pages/publish/index/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/publish/resellPlats/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/publish/resellGoods/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/publish/confirmResell/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/publish/resellSuccess/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    // 消息
+    {
+      "path": "pages/message/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    // 个人中心
+    {
+      "path": "pages/me/index/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/me/myOrder/mySell/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "我卖出的",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/myOrder/myBuy/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "我买到的",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/myOrder/orderDetail/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "订单详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/myOrder/buyOrderDetail/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "订单详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/pay/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "收款方式",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/pay/edit/index",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/address/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "管理地址",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/address/editAddress/index",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      }
+    },
+    // {
+    //   "path": "pages/me/personal/index",
+    //   "style": {
+    //     "navigationStyle": "custom",
+    //     "navigationBarTitleText": "个人主页",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    {
+      "path": "pages/me/collect/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "我的收藏",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/setUp/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "卖家设置",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/helps/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "帮助",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/pocket/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "赏袋",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/pocket/sale/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "正在出售",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "lazyCodeLoading": "requiredComponents",
+  "subPackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        {
+          "path": "me/personal/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "个人主页",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "me/editInfo/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "编辑资料",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "me/webView/index",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "me/balance/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "余额中心",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "me/balance/withdrawal/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "余额明细",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "me/balance/recorded/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "待入账明细",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "me/balance/balanceDetails/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "余额明细",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "me/balance/bankCard/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "银行卡管理",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "me/balance/addBankCard/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "添加银行卡",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "me/balance/openAccount/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "余额开户",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "奇物",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "style": {
+    "app-plus": {
+      "background": "#000000"
+    }
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#0050FF",
+    "list": [
+      {
+        "iconPath": "/static/images/tabbarIcons/home.png",
+        "selectedIconPath": "/static/images/tabbarIcons/home_a.png",
+        "text": "首页",
+        "pagePath": "pages/home/index/index"
+      },
+      {
+        "iconPath": "/static/images/tabbarIcons/deploy.png",
+        "selectedIconPath": "/static/images/tabbarIcons/deploy_a.png",
+        "text": "发布",
+        "pagePath": "pages/publish/index/index"
+      },
+      // {
+      //   "iconPath": "/static/images/tabbarIcons/message.png",
+      //   "selectedIconPath": "/static/images/tabbarIcons/message_a.png",
+      //   "text": "消息",
+      //   "pagePath": "pages/message/index"
+      // },
+      {
+        "iconPath": "/static/images/tabbarIcons/my.png",
+        "selectedIconPath": "/static/images/tabbarIcons/my_a.png",
+        "text": "我的",
+        "pagePath": "pages/me/index/index"
+      }
+    ]
+  },
+  "onReachBottomDistance": 20,
+  "easycom": {
+    // 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+    // "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+    // npm安装方式
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "uniIdRouter": {}
+}

@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "common-container": "/components/commonContainer/index",
+    "search-header": "/components/searchHeader/index",
+    "scroll-list": "/components/scrollList/index",
+    "list-item": "/pages/home/search/components/list",
+    "card-title": "/pages/home/search/components/cardTitle"
+  }
+}

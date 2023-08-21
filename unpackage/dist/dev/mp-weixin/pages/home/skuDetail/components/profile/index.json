@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-scroll-list": "/node-modules/uview-ui/components/u-scroll-list/u-scroll-list",
+    "u--image": "/node-modules/uview-ui/components/u--image/u--image"
+  }
+}

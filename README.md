@@ -1,1 +1,4 @@
-# resell-miniapp
+## 转卖平台
+
+使用uniapp开发微信小程序，同时可生成app等，适合跨端开发。
+

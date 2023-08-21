@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "正在出售",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "common-container": "/components/commonContainer/index",
+    "search-header": "/components/searchHeader/index",
+    "edit-sale": "/pages/me/pocket/sale/components/edit"
+  }
+}

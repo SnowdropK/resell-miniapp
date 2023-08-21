@@ -1,0 +1,1 @@
+<view class="bannerBox"><u-swiper vue-id="2fc656dc-1" height="200rpx" list="{{list1}}" circular="{{true}}" indicator="{{true}}" indicatorActiveColor="{{themeColor}}" data-event-opts="{{[['^change',[['change']]],['^click',[['click']]]]}}" bind:change="__e" bind:click="__e" bind:__l="__l"></u-swiper></view>
