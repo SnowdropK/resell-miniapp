@@ -2,7 +2,7 @@
 
 使用uniapp开发微信小程序，同时可生成app等，适合跨端开发。
 
-### 登录权限判断
+### token工具函数
 
 ```
 // 设置token
@@ -32,6 +32,8 @@ export function getUserInfo() {
 ```
 
 ### 登录权限判断
+白名单页面不需要进行登录权限判断，非白名单页面则使用拦截器方法uni.addInterceptor对uniapp自带的跳转方式进行拦截。
+跳转前先判断有没有token，无token自动跳转至登录页，有token则正常跳转。
 
 ```
 // 白名单 不需要验证token
